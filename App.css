@@ -1,0 +1,25 @@
+.starshipContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 5em;
+  justify-items: center;
+  margin: 20px auto;
+
+}
+
+.card {
+  background-color: green;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  grid-row: auto 1fr;
+  grid-column: auto 1fr;
+}
+
+.cardBody {
+  font-size: 18px;
+  font-weight: bold;
+}
